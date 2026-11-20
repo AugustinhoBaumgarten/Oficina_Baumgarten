@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oficina Baumgarten</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+        <h1 id="titulo-oficina">Oficina Baumgarten</h1>
+        <p class="destaque">Seu carro em boas mãos.</p>
+    </header>
+    
+    <main>
+        <section>
+            <h2>Nossos serviços</h2>
+            <ul>
+                <li>Alinhamento</li>
+                <li>Troca de óleo</li>
+            </ul>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbGG791GPehVX5PnvQ84nvqYKr-uW1H_qoSGot5yWmq10nNNCp3_gBckQ&s=10" alt="imagem mecânica">
+        </section>
+
+        <section>
+            <h2>Tabela de preços</h2>
+            <table class="cartao-servico">
+                <tr>
+                    <th>Serviço</th>
+                    <th>Valor</th>
+                </tr>
+                <tr>
+                    <td>Alinhamento</td>
+                    <td>R$ 80,00</td>
+                </tr>
+                <tr>
+                    <td>Troca de óleo</td>
+                    <td>R$ 150,00</td>
+                </tr>
+                <tr>
+                    <td>Revisão de Freios</td>
+                    <td>R$220,00</td>
+                </tr>
+            </table>
+        </section>
+
+
+        <section>
+            <h2>Solicite um orçamento</h2>
+            
+            <form action="">
+                <label>Seu nome:</label><br>
+                <input id="input-nome" type="text" placeholder="Digite seu nome"><br><br>
+                <label>Telefone / WhatsApp:</label><br>
+                <input id="input-telefone" type="tel" placeholder="(xx)xxxxx-xxxx"><br><br>
+                <label>Modelo do veículo:</label><br>
+                <input id="input-modelo" type="text" placeholder="Ex:Honda Civic"><br><br>
+                <label>Ano do veículo:</label><br>
+                <input id="input-ano" type="number" placeholder="Ex:2000"><br><br>
+                <label>Descreva o problema:</label><br>
+                <textarea id="input-text" rows="4" placeholder="Conte o que seu carro precisa..."></textarea>
+            </form>
+
+
+                <button id="botao-agendar" class="botao-orcamento">Agendar meu orçamento</button>
+           
+                <p id="mensagemBotao"></p>
+        </section>
+    </main>
+
+    <footer class="container-flex">
+        <p>© 2026 Oficina Baumgarten - Todos os direitos reservados.</p>
+        <p>Endereço: Rua Principal,100-Palhoça/SC</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eef2f5;
+    margin: 0;
+}
+h1{
+    color: white;
+    background-color: #229842;
+    padding: 30px;
+
+}
+h2{
+    color: #2c3e50;
+    text-decoration: underline;
+}
+p{
+    color: #333333;
+    font-size: 20px;
+    line-height: 1.6;
+}
+.botao-orcamento{
+    background-color: red;
+    color: white;
+    padding: 15px 25px;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+ul{
+    margin-bottom: 30px;
+}
+
+.destaque{
+    color: #229842;
+    font-family: fantasy;
+    font-size: 15px;
+    line-height: 5px;
+    text-align: center;
+}
+
+.cartao-servico{
+    padding: 20px;
+    background-color: white;
+    margin-bottom: 20px;
+    border: solid 0.2px rgba(0, 0, 0, 0.196);
+}
+.container-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+table{
+    max-width: 100%;
+    height: auto;
+}
