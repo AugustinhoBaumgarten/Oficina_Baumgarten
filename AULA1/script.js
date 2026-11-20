@@ -63,3 +63,13 @@ function verificarServico(servico, valor){
 
  verificarServico("Alinhamento", 80);
  verificarServico("Retífica de motor", 1200)
+
+
+/*
+git status vai mostrar os arquivos alterados
+
+git add . (prepara os arquivos alterados)
+
+git commit -m "descricao do que voce mudou" (salva no histórico local)
+
+git push (envia direto para o GitHub) */
