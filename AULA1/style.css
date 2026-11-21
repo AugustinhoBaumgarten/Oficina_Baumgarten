@@ -1,3 +1,5 @@
+
+
 *{
     box-sizing: border-box;
 }
@@ -7,6 +9,13 @@ body{
     background-color: #eef2f5;
     margin: 0;
 }
+main{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+
 h1{
     color: white;
     background-color: #229842;
@@ -14,6 +23,9 @@ h1{
     font-family: "Momo Trust Display", sans-serif;
     font-weight: 400;
     font-style: normal;
+    margin: 20px;
+    border-radius: 5px;
+    
 
 }
 h2{
@@ -29,9 +41,15 @@ p{
     background-color: red;
     color: white;
     padding: 15px 25px;
-    border: 2px solid black;
-    border-radius: 5px;
+    border: none;
+    border-radius: 20px;
     cursor: pointer;
+    
+}
+.botao-orcamento:hover{
+    background-color: rgba(255, 0, 0, 0.395);
+    color:white;
+
 }
 
 ul{
@@ -40,7 +58,6 @@ ul{
 
 .destaque{
     color: #229842;
-    font-family: fantasy;
     font-size: 15px;
     line-height: 5px;
     text-align: center;
@@ -55,6 +72,10 @@ ul{
 .container-flex{
     display: flex;
     justify-content: space-between;
+    margin: 20px;
+    border-radius: 5px;
+    background-color: #229842;
+
 }
 
 img{
@@ -64,4 +85,10 @@ img{
 table{
     max-width: 100%;
     height: auto;
+}
+
+footer > p{
+    color: white;
+    text-align: center;
+    font-size: medium;
 }
