@@ -50,6 +50,10 @@ p{
     color:white;
 
 }
+.botao-orcamento:focus{
+    border-color: #229842;
+    outline: 4px solid #229842;
+}
 
 ul{
     margin-bottom: 30px;
@@ -85,6 +89,18 @@ table{
     max-width: 100%;
     height: auto;
 }
+
+input:focus{
+    border-color: #229842;
+    outline: 2px solid #229842;
+}
+
+textarea:focus{
+    border-color: #229842;
+    outline: 2px solid #229842;
+
+}
+
 
 footer > p{
     color: white;
