@@ -12,8 +12,6 @@ let inputAno = document.getElementById("input-ano");
 let inputText = document.getElementById("input-text");
 
 
-titulo.innerText = "Oficina Baumgarten - Sistema Online e Operacional";
-
 
 let botaoAgendar = document.getElementById("botao-agendar");
 
