@@ -1,0 +1,11 @@
+#botao{
+    background-color: blue;
+    color: white;
+    border-radius: 100%;
+    cursor: pointer;
+    width: 30%;
+}
+#botao:hover{
+    background-color: rgba(0, 0, 255, 0.356);
+    color: rgb(43, 41, 41);
+}
